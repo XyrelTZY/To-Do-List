@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Xyrel" contextmenu="Owner">
+    <meta http-equiv="refresh" content="2500">
+    <link rel="stylesheet" href="Activity.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>TODO LIST
+            <p id="owner"><span id="owners">&copy;</span> Xyrel D. Tenefrancia</p>
+        </h1>
+        <div class="add">
+          <input type="text" placeholder="New Task" class="add-txt box"><input type="button" class="add-btn" value="+">
+        </div>
+        <div class="content box">
+          <ul class="menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#">To be completed</a></li>
+            <li><a href="#">Completed</a></li>
+          </ul>
+          <ul class="list">
+            <li><input id="checked" type="checkbox" class="check">
+              <label for="checked">Doing Activity</label><a class="delete" href="#">X</a>
+            </li>
+          </ul>
+          <ul class="total">
+            <p class="Incomplete"><a href="#">Task need to be completed</a></p>
+            <p class="Complete"><a href="#">Clear completed items</a></p>
+          </ul>
+        </div>
+      </div>
+      <script src="Activity.js"></script>
+</body>
+</html>
